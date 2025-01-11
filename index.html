@@ -10,11 +10,22 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="width">
-      <div class="banner"></div>
+    <header>
+      <nav id="navbar">
+        <div class="nav-menu">
+          <h2 class="content-title">Bangladesh 2.0</h2>
+          <button class="btn">Sign In</button>
+        </div>
+      </nav>
+      <div class="width banner"></div>
     </header>
     <main class="width">
       <section>
@@ -62,6 +73,11 @@
             <button class="btn">Learn More</button>
           </div>
         </div>
+      </section>
+
+      <!-- quote description -->
+      <section>
+        <div class="quote-section"></div>
       </section>
 
       <!-- recent-news-section -->
@@ -126,7 +142,38 @@
           </div>
         </div>
       </section>
+
+      <!-- donate-section -->
+
+      <section>
+        <div class="donate-section">
+          <h2 class="content-title">Donate Today</h2>
+          <p id="donate-sub-content" class="sub-content">
+            Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing
+            cutting-edge technology, promoting inclusive growth, and ensuring
+            sustainability. With initiatives in renewable energy, digital
+            transformation, and robust infrastructure.
+          </p>
+
+          <div class="donate-cards">
+            <div id="donate-card-1" class="donate-card">
+              <h2 class="content-title">100 Taka</h2>
+            </div>
+            <div id="donate-card-2" class="donate-card">
+              <h2 class="content-title">200 Taka</h2>
+            </div>
+            <div id="donate-card-3" class="donate-card">
+              <h2 class="content-title">500 Taka</h2>
+            </div>
+            <div id="donate-card-4" class="donate-card">
+              <h2 class="content-title">1000 Taka</h2>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- footer -->
     <footer class="width">
       <div class="footer">
         <h2 class="content-title">Subscribe Newsletter</h2>
@@ -142,6 +189,7 @@
           />
           <button id="footer-btn" class="btn">Subscribe</button>
         </div>
+        <p class="sub-content">We promise not to spam you!</p>
       </div>
     </footer>
   </body>
