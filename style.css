@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Shared-styles */
+.content-title {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.btn {
+  width: 122px;
+  height: 41px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+  border: none;
+  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px 0px;
+}
+.width {
+  max-width: 1280px;
+  margin: 80px auto;
+}
+
+.sub-content {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+}
+
+/* fira sans font */
+.fira-sans {
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* banner-style */
+.banner {
+  background-image: url("./UI/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 100px;
+  height: 560px;
+}
+.vision-cards {
+  margin-top: 32px;
+  display: flex;
+  gap: 20px;
+}
+.vision-card {
+  padding: 32px;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+}
+#vision-content {
+  font-size: 20px;
+}
+#vision-sub-content {
+  width: 345px;
+}
+#vision-card-2 {
+  background-color: rgb(198, 228, 214);
+}
+#vision-card-3 {
+  background-color: rgb(247, 235, 207);
+}
+#vision-btn-2 {
+  margin-top: 43px;
+}
+/* recent-news */
+.recent-news {
+  margin-top: 80px;
+}
+.recent-news p {
+  margin-top: 18px;
+}
+.recent-news-cards {
+  display: flex;
+  padding: 48px;
+  gap: 32px;
+  align-items: center;
+}
+.recent-news-card-img {
+  border-radius: 25px;
+  width: 400px;
+  height: 300px;
+}
+#recent-news-sub-content {
+  margin-top: 12px;
+  width: 700px;
+  height: 70px;
+}
+.recent-card-time-date {
+  margin-top: 15px;
+}
