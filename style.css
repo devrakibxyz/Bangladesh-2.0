@@ -104,6 +104,18 @@
 #vision-btn-3 {
   background-color: rgb(255, 194, 57);
 }
+#vision-btn-3:hover {
+  background-color: aquamarine;
+  transition: 1s;
+}
+#vision-btn-2:hover {
+  background-color: chartreuse;
+  transition: 1s;
+}
+#vision-btn-1:hover {
+  background-color: tomato;
+  transition: 1s;
+}
 /* recent-news */
 .recent-news {
   margin-top: 80px;
