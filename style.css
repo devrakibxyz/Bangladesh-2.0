@@ -109,3 +109,31 @@
 .recent-card-time-date {
   margin-top: 15px;
 }
+.footer {
+  text-align: center;
+  background: rgb(198, 228, 214);
+  padding: 80px 100px;
+  border-radius: 25px;
+}
+#footer-sub-content {
+  width: 620px;
+  height: 50px;
+  margin: auto;
+}
+.footer input {
+  padding: 18px 40px 18px 40px;
+  width: 600px;
+  height: 55px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+}
+#footer-btn {
+  border-radius: 0px 8px 8px 0px;
+  height: 56px;
+}
+.footer-input {
+  display: flex;
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+}
