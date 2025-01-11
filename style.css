@@ -62,6 +62,11 @@
   max-width: 1280px;
   margin: auto;
 }
+#header-btn {
+  background-color: #ffff;
+  color: rgb(0, 106, 80);
+  border: 1px solid rgb(0, 106, 80);
+}
 
 /* banner-style */
 .banner {
@@ -77,6 +82,9 @@
   margin-top: 32px;
   display: flex;
   gap: 20px;
+}
+#vision-sub-content-1 {
+  padding-top: 15px;
 }
 .vision-card {
   padding: 32px;
