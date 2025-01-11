@@ -71,6 +71,8 @@
   padding: 80px 100px;
   height: 560px;
 }
+
+/* vision-section */
 .vision-cards {
   margin-top: 32px;
   display: flex;
@@ -95,6 +97,12 @@
 }
 #vision-btn-2 {
   margin-top: 43px;
+}
+#vision-btn-1 {
+  background-color: rgb(84, 144, 245);
+}
+#vision-btn-3 {
+  background-color: rgb(255, 194, 57);
 }
 /* recent-news */
 .recent-news {
